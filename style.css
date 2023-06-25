@@ -1,8 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-
+box-sizing: border-box;
 }
 body{
     background-color: aqua;
+}
+#clock{
+    font-size: 10em;
+    text-align: center;
+    color: blue;
+    background-color: azure;
+    padding: 5%;
+    margin: 0%;
 }
