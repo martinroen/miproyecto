@@ -3,14 +3,85 @@
     padding: 0;
 box-sizing: border-box;
 }
-body{
-    background-color: aqua;
+header{
+    width: 100%;
+    background-color: #252440;
+    position:fixed;
+    top: 0;
 }
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+
+}
+li{
+    margin: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: #b5bac9;
+    font-size: 15px;
+}
+.sobreMi{
+    background-color: #3e4144;
+    padding: 250px;
+    
+
+}
+body{
+    background-color: grey;
+}
+
 #clock{
-    font-size: 10em;
+    font-size: 5cm;
     text-align: center;
-    color: blue;
-    background-color: azure;
-    padding: 5%;
+    color: whitesmoke;
+    background-color: #000000;
+    padding: 3cm;
     margin: 0%;
 }
+
+footer{
+    height: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#252440;
+        
+}
+.logo{
+  
+width: 60px;
+height: 60px;
+margin: 25px;
+
+}
+.conteiner-img{
+width: 100%;
+max-width: 1500px;
+margin: auto;
+margin-top: 50px;
+margin-bottom:  60px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 250px;
+grid-gap: 50px;
+}
+
+
+
+.conteiner-img .box-img figure{
+    width: 100%;
+    height: 100%;
+
+}
+.conteiner-img .box-img img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+
+}
+
+

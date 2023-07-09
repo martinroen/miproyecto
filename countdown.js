@@ -20,7 +20,7 @@ const getRemainingTime = (deadline) => {
   
     const timerUpdate = setInterval(() => {
       let t = getRemainingTime(deadline);
-      el.innerHTML = `${t.remainDays}d:${t.remainHours}h:${t.remainMinutes}m:${t.remainSeconds}s`;
+      el.innerHTML = `${t.remainDays}D:${t.remainHours}H:${t.remainMinutes}M:${t.remainSeconds}S`;
   
       if (t.remainTime <= 1) {
         clearInterval(timerUpdate);
